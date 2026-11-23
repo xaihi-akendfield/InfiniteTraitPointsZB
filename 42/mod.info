@@ -1,0 +1,3 @@
+name=Infinite Trait Points
+id=InfiniteTraitPoints
+description=Starts character creation with 1000 trait points. [since it patches initial variable declaration, in game shows 1008 ie (int i_points = 1000 + the usual increment count of default 8]
