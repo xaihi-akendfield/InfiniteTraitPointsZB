@@ -1,0 +1,8 @@
+require "OptionScreens/CharacterCreationProfession"
+
+local origCreate = CharacterCreationProfession.create
+function CharacterCreationProfession:create()
+    origCreate(self)
+    self.pointToSpend = 500
+    self:setVisible(self:isVisible())
+end
